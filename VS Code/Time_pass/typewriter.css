@@ -1,0 +1,29 @@
+.typewriter{
+    display: flex;
+    /* justify-content: center; */
+}
+.typewriter p{
+    font-family: monospace;
+    font-size: 1.5rem;
+    /* margin-inline: auto; */
+    overflow: hidden;
+    /* Keeps the single line */
+    white-space: nowrap;
+    /* The cursor */
+    border-right: 1px solid;
+    animation: typing 2.2s steps(22) forwards /*infinite*/,
+    blink 1s step-end infinite  ;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}

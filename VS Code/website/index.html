@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beautiful and modern website with amazing design elements">
+    <meta name="keywords" content="modern, design, beautiful, fast">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:title" content="Beautiful Modern Website | Home">
+    <meta property="og:description" content="Beautiful and modern website with amazing design elements">
+    <meta property="og:image" content="logo.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourdomain.com/">
+    <meta property="twitter:title" content="Beautiful Modern Website | Home">
+    <meta property="twitter:description" content="Beautiful and modern website with amazing design elements">
+    <meta property="twitter:image" content="logo.png">
+    <!-- Preload critical assets -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Modern Website | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Structured data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "BeautifulSite",
+      "url": "https://yourdomain.com",
+      "logo": "https://yourdomain.com/logo.png",
+      "sameAs": [
+        "https://facebook.com/beautifulsite",
+        "https://twitter.com/beautifulsite",
+        "https://instagram.com/beautifulsite"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">BeautifulSite</div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="contact-btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Creative & Innovative Design</h1>
+                <div class="hero-buttons">
+                    <a href="#services" class="primary-btn">Get Started</a>
+                    <a href="#about" class="secondary-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="design-image.jpg" alt="Creative Design Illustration" loading="lazy" width="600" height="400">
+            </div>
+        </section>
+
+        <section class="features" id="services">
+            <h2>Why Choose Us</h2>
+            <div class="features-container">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Beautiful Design</h3>
+                    <p>Stunning visuals that captivate your audience and leave a lasting impression.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized code and assets for the fastest loading experience possible.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>SEO Friendly</h3>
+                    <p>Built with search engines in mind to help you rank higher in search results.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="portfolio" id="portfolio">
+            <h2>Our Latest Work</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <img src="https://source.unsplash.com/random/600x400?website" alt="Portfolio Item 1" loading="lazy" width="600" height="400">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://source.unsplash.com/random/600x400?app" alt="Portfolio Item 2" loading="lazy" width="600" height="400">
+                    <div class="portfolio-overlay">
+                        <h3>Mobile App</h3>
+                        <p>App Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://source.unsplash.com/random/600x400?branding" alt="Portfolio Item 3" loading="lazy" width="600" height="400">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Branding</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We're a passionate team of designers and developers dedicated to creating beautiful, fast, and SEO-friendly websites that make our clients happy.</p>
+                    <p>Our approach combines cutting-edge technology with timeless design principles to deliver websites that not only look great but also perform exceptionally well.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://source.unsplash.com/random/600x400?team" alt="Our Team" loading="lazy" width="600" height="400">
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact" id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="primary-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <p>hello@beautifulsite.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <p>123 Design Street, Creative City</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">BeautifulSite</div>
+            <p>© 2023 BeautifulSite. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">📱</a>
+                <a href="#" aria-label="Twitter">📱</a>
+                <a href="#" aria-label="Instagram">📱</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Defer non-critical JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>

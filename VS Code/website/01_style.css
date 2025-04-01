@@ -1,0 +1,45 @@
+.lists {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.lists-1 {
+    margin: 10px 50px 10px 50px;
+}
+
+.header-1 {
+    display: inline-block;
+    margin: 10px 10em;
+    font-family: cursive;
+    color: rgb(16, 136, 5);
+}
+
+.header-2 {
+    display: inline-block;
+    margin: 10px 15em;
+    width: 50%;
+    height: 50px;
+}
+
+h1 {
+    display: inline-block;
+}
+.link-1{
+    text-decoration: none;
+    color: darkgrey;
+}
+.link-1:hover{
+    color: grey;
+    filter: blur(grey , 1.5rem);
+}
+.header-3{
+    background: url(photo-1616486338812-3dadae4b4ace.jpg) ;
+    height: 70em;
+}
+.image-1{
+    height: 66em;
+}

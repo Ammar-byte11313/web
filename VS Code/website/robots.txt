@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Optimize crawl rate
+Crawl-delay: 10 
